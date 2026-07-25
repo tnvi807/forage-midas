@@ -1,3 +1,6 @@
+server:
+  port: 33400
+
 general:
   kafka-topic: trader-updates
 
@@ -13,3 +16,4 @@ spring:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
